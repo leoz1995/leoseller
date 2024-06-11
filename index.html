@@ -6,52 +6,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LEO SELLER</title>
 
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="/assets/css/index.css" />
     <script src="https://kit.fontawesome.com/427dceba2f.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <h1>LÉO</h1> <button>Produtos</button><button>Serviços</button><button>Equipe</button><button>Contato</button>
-    <h2>Tecnology</h3>
-        <input type="text" class="search-box-input" name="busca" placeholder="Faça sua Pesquisa">
-        <img src="imgs/baixados.png">
-        <h1>30%</h1>
-        <h1>DE DESCONTO</h1>
+    <header>
+        <div id="header_left">
+            <h1 id="primeiro_nome" class="texto_logo">LÉO</h1>
+            <h2 id="segundo_nome" class="texto_logo">Tecnology</h2>
+        </div>
+        <div id="header_right">
+            <div id="btns">
+                <button id="produtos_btn" class="menu">Produtos</button>
+                <button id="servicos_btn" class="menu">Serviços</button>
+                <button id="equipe_btn" class="menu">Equipe</button>
+                <button id="contato_btn" class="menu">Contato</button>
+            </div>
+            <input type="text" id="search_box" class="search-box-input" name="busca" placeholder="Faça sua Pesquisa">
+        </div>
+    </header>
 
-        <h3>Faça a troca da tela do seu celular e ganhe sua película de BRINDE!</h3>
+    <div id="banner_escrito">
+        <div id="banner">
+            <img id="img_banner" src="assets/imgs/banner.jpg">
+        </div>
+        <div id="texto_da_imagem">
+            <h1 id="porcentagem">30%</h1>
+            <h1 id="texto_banner_um">DE DESCONTO</h1>
+            <h3 id="texto_banner_dois">Faça a troca da tela do seu celular e ganhe sua película de BRINDE!</h3>
+        </div>
+    </div>
 
-        <h4>Eletrônicos</h4>
+    <div>
+        <h4 id="titulo_corpo">Eletrônicos</h4>
 
-        <img src="imgs/1.png">
-        <img src="imgs/2.png">
-        <img src="imgs/3.png">
-        <img src="imgs/4.png">
-        <h5>Smartphones</h5>
-        <p>Celulares novos e usados de várias marcas e modelos, configura já</p>
-        <h5>Computadores</h5>
-        <p>Celulares novos e usados de várias marcas e modelos, configura já</p>
-        <h5>Notebooks</h5>
-        <p>Celulares novos e usados de várias marcas e modelos, configura já</p>
-        <h5>Periféricos</h5>
-        <p>Celulares novos e usados de várias marcas e modelos, configura já</p>
+        <img src="assets/imgs/1.png">
+        <img src="assets/imgs/2.png">
+        <img src="assets/imgs/3.png">
+        <img src="assets/imgs/4.png">
+        <h5 id="sub_titulo">Smartphones</h5>
+        <p id="sub_texto">Celulares novos e usados de várias marcas e modelos, configura já</p>
+        <h5 id="sub_titulo">Computadores</h5>
+        <p id="sub_texto">Celulares novos e usados de várias marcas e modelos, configura já</p>
+        <h5 id="sub_titulo">Notebooks</h5>
+        <p id="sub_texto">Celulares novos e usados de várias marcas e modelos, configura já</p>
+        <h5 id="sub_titulo">Periféricos</h5>
+        <p id="sub_texto">Celulares novos e usados de várias marcas e modelos, configura já</p>
 
-        <h4>Serviços</h4>
+        <h4 id="titulo_corpo">Serviços</h4>
 
-        <img src="imgs/5.png">
-        <img src="imgs/6.png">
-        <img src="imgs/7.png">
-        <img src="imgs/8.png">
-        <h5>Hardware Smartphones</h5>
-        <p>Celulares novos e usados de várias marcas e modelos, configura já</p>
-        <h5>Hardware Computers</h5>
-        <p>Celulares novos e usados de várias marcas e modelos, configura já</p>
-        <h5>Softwares</h5>
-        <p>Celulares novos e usados de várias marcas e modelos, configura já</p>
-        <h5>Design and Programmer</h5>
-        <p>Celulares novos e usados de várias marcas e modelos, configura já</p>
+        <img src="assets/imgs/5.png">
+        <img src="assets/imgs/6.png">
+        <img src="assets/imgs/7.png">
+        <img src="assets/imgs/8.png">
+        <h5 id="sub_titulo">Hardware Smartphones</h5>
+        <p id="sub_texto">Celulares novos e usados de várias marcas e modelos, configura já</p>
+        <h5 id="sub_titulo">Hardware Computers</h5>
+        <p id="sub_texto">Celulares novos e usados de várias marcas e modelos, configura já</p>
+        <h5 id="sub_titulo">Softwares</h5>
+        <p id="sub_texto">Celulares novos e usados de várias marcas e modelos, configura já</p>
+        <h5 id="sub_titulo">Design and Programmer</h5>
+        <p id="sub_texto">Celulares novos e usados de várias marcas e modelos, configura já</p>
 
-        <h1>LÉO</h1>
-        <h2>Tecnology</h2>
+    </div>
+    <footer>
+        <h1 id="primeiro_nome">LÉO</h1>
+        <h2 id="segundo_nome">Tecnology</h2>
         <h3>Informações</h3>
         <p>Se você pretende aumentar seu percentual de vendas você pode
             fazer parte da nossa equipe, para saber mais informações entre
@@ -59,7 +80,8 @@
         </p>
         <i class="fa-brands fa-whatsapp"></i><i class="fa-brands fa-facebook"></i><i
             class="fa-brands fa-instagram"></i><i class="fa-brands fa-youtube"></i>
-        <!-- <iframe src="https://www.youtube.com/embed/c-1i96qpF-s">
+    </footer>
+    <!-- <iframe src="https://www.youtube.com/embed/c-1i96qpF-s">
         </iframe> -->
 </body>
 

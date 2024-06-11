@@ -1,0 +1,53 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#primeiro_nome {
+    color: #C18417;
+    font-size: 50px;
+    font-family: 'Michroma-Regular';
+}
+#segundo_nome {
+    font-size: 36px;
+    font-family: 'Jost-Medium';
+}
+#search_box{
+    width: 20vw;
+    height: 1.4vw;
+    border-radius: 5px;
+    border: #FAFBF6;
+}
+.texto_logo{
+    margin: 0;
+}
+h1 { 
+    color: #FAFBF6; 
+    font-size: 90px;
+}
+h2 { 
+    color: #FAFBF6; 
+    font-size: 36px
+}button { 
+    font-size: 35px; 
+    color: white; 
+    background-color: #C18417;
+}
+
+.menu{
+    font-family: 'Michroma-Regular';
+    border-radius: 10px;
+    border: none;
+}
+#logo{
+    display: flex;
+    flex-direction: row;
+}
