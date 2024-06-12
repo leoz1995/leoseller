@@ -1,7 +1,8 @@
 header {
+    width: 100vw;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -13,12 +14,16 @@ header {
 }
 #primeiro_nome {
     color: #C18417;
-    font-size: 50px;
+    font-size: 55px;
     font-family: 'Michroma-Regular';
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black,-1px 1px 0 black,
+    1px 1px 0 black;
 }
 #segundo_nome {
-    font-size: 36px;
+    font-size: 32px;
     font-family: 'Jost-Medium';
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black,-1px 1px 0 black,
+    1px 1px 0 black;
 }
 #search_box{
     width: 20vw;
@@ -36,8 +41,9 @@ h1 {
 h2 { 
     color: #FAFBF6; 
     font-size: 36px
-}button { 
-    font-size: 35px; 
+}
+button { 
+    font-size: 35px;
     color: white; 
     background-color: #C18417;
 }
