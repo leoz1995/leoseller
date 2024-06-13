@@ -5,53 +5,69 @@ header {
     justify-content: space-around;
     align-items: center;
 }
-
-#header_left {
+.header_left {
+    width: 1vw;
+    margin: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0;
 }
-#primeiro_nome {
-    color: #C18417;
-    font-size: 55px;
+#title{
+    color: #FAFBF6; 
+    font-size: 60px;
+    margin: 0;
     font-family: 'Michroma-Regular';
     text-shadow: -1px -1px 0 black, 1px -1px 0 black,-1px 1px 0 black,
     1px 1px 0 black;
+    color: #C18417;
 }
-#segundo_nome {
-    font-size: 32px;
+#sub_title{
+    color: #FAFBF6; 
+    font-size: 34px;
+    margin: 0;
     font-family: 'Jost-Medium';
     text-shadow: -1px -1px 0 black, 1px -1px 0 black,-1px 1px 0 black,
     1px 1px 0 black;
 }
-#search_box{
-    width: 20vw;
-    height: 1.4vw;
+.header_right{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#btns{
+    background-color: #C18417;
+    width: 65vw;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid white;
+    border-radius: 1px;
+    align-items: center;
+}
+.menu {
+    font-family: 'Michroma-Regular';
+    font-size: 16px;
+    border: 0;
+}
+.web_search{
+    display: flex;
+    margin: 1vw;
+    margin-left: 0;
+    flex-direction: row;
+    align-items: left;
+}
+.web_search #search_box{
+    width: 300px;
+    height: 2.0vw;
     border-radius: 5px;
     border: #FAFBF6;
-}
-.texto_logo{
-    margin: 0;
-}
-h1 { 
-    color: #FAFBF6; 
-    font-size: 90px;
-}
-h2 { 
-    color: #FAFBF6; 
-    font-size: 36px
 }
 button { 
     font-size: 35px;
     color: white; 
     background-color: #C18417;
-}
-
-.menu{
-    font-family: 'Michroma-Regular';
-    border-radius: 10px;
-    border: none;
 }
 #logo{
     display: flex;
